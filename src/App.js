@@ -57,6 +57,7 @@ export default class App extends Component {
       // const sum = (a,b)=> {return a+b};
       // const debts = date.reduce(sum);
        
+      // Почему не плюсует новый пост?
       const debts = data.reduce(function(prev,curr) {
         return prev + curr.debt
       },0 )
